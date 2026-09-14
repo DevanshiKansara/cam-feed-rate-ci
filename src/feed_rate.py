@@ -10,7 +10,7 @@ def convert_feed_rate(value, from_unit, to_unit):
         return value
 
     if from_unit == "mm/min" and to_unit == "in/min":
-        return value / 2.54
+        return value / 25.4
 
     if from_unit == "in/min" and to_unit == "mm/min":
         return value * 25.4
